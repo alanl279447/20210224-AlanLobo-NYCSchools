@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NYCSchools</string>
+    <string name="queryname">Search school name</string>
+</resources>
