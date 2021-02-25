@@ -11,7 +11,6 @@ Screenshots
 <img src="screenshots/searchView.png" width="250"/>|
 <img src="screenshots/schoolDetails.png" width="250"/>|
 
-
 Features
 -----------
 the Application is compatible to android versions 21 to 30.
@@ -45,7 +44,6 @@ User can use that search bar to search for schools.
 Users can click on a school of their choice which will lead them to the school details page..
 This action will present a new View Controller with the Selected Schools SAT Scores and other information.
 
-
 Possible Enhancements
 --------------
 
@@ -55,13 +53,11 @@ Possible Enhancements
 - Integrate with Google maps, mapView of schools.
 - Option to sort based on location, address, rating etc.
 
-
-
 Libraries Used
 --------------
 Classes have been designed in such a way that it could be inherited and maximize the code reuse.
 
-A simple app loads information from (https://data.cityofnewyork.us/resource/) to show one approach to using some of the best practices in Android Development.
+This app loads information from (https://data.cityofnewyork.us/resource/) to show one approach to using some of the best practices in Android Development.
 Including:
   * [AppCompat]- Degrade gracefully on older versions of Android.
   * [Android KTX] - Write more concise, idiomatic Kotlin code.
@@ -73,8 +69,10 @@ Including:
   * [Room]  - Access your app's SQLite database with in-app objects and compile-time checks.
   * [ViewModel]- Store UI-related data that isn't destroyed on app rotations. Easily scheduleasynchronous tasks for optimal execution.
   * [UI] -  Details on why and how to use UI Components in your apps - together or separate
-  * [Fragment][34] - A basic unit of composable UI.
-  * [Layout][35] - Lay out widgets using different algorithms.
+  * [Fragment] - A basic unit of composable UI.
+  * [Layout] - Lay out widgets using different algorithms.
   * Third party and miscellaneous libraries
-  * [Hilt][92]: for [dependency injection][93]
-  * [Kotlin Coroutines][91] for managing background threads with simplified code and reducing needs for callbacks
+  * [Hilt]: for [dependency injection]
+  * [Kotlin Coroutines] for managing background threads with simplified code and reducing needs for callbacks
+
+
