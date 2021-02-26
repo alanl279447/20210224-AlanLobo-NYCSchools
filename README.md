@@ -21,7 +21,7 @@ School List screen:
 Added SearchView to make it easier for the user to find a certain school inside of the application.
 Option to call the school by simply pressing the schools phone number on the Initial Screen.
 Option to navigate to the school simply by pressing the Navigate to Address button on the Initial Screen.
-Option to like the school website link to quick glance the school website.
+Option to click the school website link for a quick glance.
 
 Details View screen:
 -----------
@@ -39,10 +39,10 @@ App flow logic
 In order to test the app, project need to be opened in android studios
 The project  can run directly on a simulator of your choice.
 whenever the app launches it will first check sql-lite if there is any data, else will fetch the School's Data from the City of New York websites API.
-Users can click on the searchView tp reveal a Search Bar in the toolbar bar.
-User can use that search bar to search for schools.
+Users can click on the searchicon to reveal a Search Bar in the toolbar.
+User can use that search bar to search/filter for schools.
 Users can click on a school of their choice which will lead them to the school details page..
-This action will present a new View Controller with the Selected Schools SAT Scores and other information.
+This action will present a new fragment with the selected Schools SAT Scores and other information.
 
 Possible Enhancements
 --------------
